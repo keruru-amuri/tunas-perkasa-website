@@ -45,7 +45,7 @@ export default function ContactPage() {
         subject: '',
         message: '',
       });
-    } catch (error) {
+    } catch (_) {
       setSubmitError('There was an error submitting your form. Please try again.');
     } finally {
       setIsSubmitting(false);
